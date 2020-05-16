@@ -1,5 +1,4 @@
 # 2048 (Basic Game)
-==================
 The game is available in 2 versions:
 ## Windows
 * The Game should run on Windows if you have Microsoft C runtime installed, otherwise install it (the game doesn't do this for you)
