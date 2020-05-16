@@ -1,12 +1,12 @@
 # 2048
-# Windows Version
+Windows Version
 1.)To run the windows version make sure you have microsoft c runtime installed
 otherwise it souldn't encounter any problems
-# Linux Version
+Linux Version
 1.)To run the Linux version make sure you have getch library for python installed, if not the program would install it for you
 2.)If you cannot install getch make sure you have pip3 installed and the command runs fine on your version
 
-# Rules-
+Rules-
 Move	w - up
 	s - down
 	a - left
