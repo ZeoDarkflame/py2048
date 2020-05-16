@@ -13,6 +13,6 @@ Move	w - up
 	d - right
 	u - undo
 	z - exit
-It is recommeded to keep game below 2^13, to prevent grid distortion
+It is recommended to keep game below 2^13, to prevent grid distortion
 use the arguments -w or --w to change the winning number and -n --n to change grid size
 entering invalid arguments for any of those will result in defaults being used
