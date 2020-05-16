@@ -7,7 +7,7 @@ except:
     print("getch not available, installing...")
     print("reopen the program after installation is complete")
     print("try installing pip3 if pip3 is not available")
-    os.system("pip3 install getch")     #install getch for the user
+    os.system("pip3 install getch; python3 -m pip install getch")     #install getch for the user
     time.sleep(5)
     exit()
 from sys import argv         #to take arguments
