@@ -14,10 +14,10 @@ The game is available in 2 versions:
 * It is recommended to keep the winning number not higher than 2<sup>13</sup> or else the grid would distort, it wouldn't distort otherwise
 
 ### Movement
-* w (lowercase) <kbd>Right</kbd> up
-* s (lowercase) <kbd>Right</kbd> down
-* a (lowercase) <kbd>Right</kbd> left
-* d (lowercase) <kbd>Right</kbd> right
-* u (lowercase) <kbd>Right</kbd> undo
-* z (lowercase) <kbd>Right</kbd> quit
+* w (lowercase) &rarr up
+* s (lowercase) &rarr down
+* a (lowercase) &rarr left
+* d (lowercase) &rarr right
+* u (lowercase) &rarr undo
+* z (lowercase) &rarr quit
  
