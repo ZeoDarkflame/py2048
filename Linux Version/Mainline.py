@@ -1,16 +1,23 @@
 from GBoard import GameBoard #import the gameboard class, the heart of the code
 import os
 import time
+from sys import argv  
 try:
     from getch import getch      #import getch to hold the screen
-except:
+except:                             # to automatically install getch
     print("getch not available, installing...")
-    print("reopen the program after installation is complete")
     print("try installing pip3 if pip3 is not available")
     os.system("pip3 install getch; python3 -m pip install getch")     #install getch for the user
     time.sleep(5)
-    exit()
-from sys import argv         #to take arguments
+    try:                                # to restart the program after installation in complete
+        stringer = "python3 "
+        for i in argv:
+            stringer += str(i) + " "
+        os.system(stringer)
+        exit()
+    except:
+        print("Please Restart the program manually")
+        exit()
 from getopt import getopt    #to parse arguments
 
 def check_power(n):          #to check whether the winning number entered is a power of 2 or not
