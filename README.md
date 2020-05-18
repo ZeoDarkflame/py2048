@@ -1,5 +1,5 @@
 # 2048 (Basic Game)
-The game is available in 2 versions:
+The game is available in 2 versions: In both Versions you are supposed to run the Mainline.py file while keeping the GBoard in same Directory
 ## Windows
 * The Game should run on Windows if you have Microsoft C runtime installed, otherwise install it (the game doesn't do this for you)
 
